@@ -23,31 +23,68 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - certificate_url: https://www.coursera.org
+  - certificate_url: https://www.udemy.com/certificate/UC-d8c860ad-e1f2-46e3-980e-805cb262ad16/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
     date_end: ''
-    date_start: '2021-01-25'
+    date_start: '2022-10-15'
     description: ''
-    organization: Coursera
+    organization: Udemy
     organization_url: https://www.coursera.org
-    title: Neural Networks and Deep Learning
-    url: ''
-  - certificate_url: https://www.edx.org
-    date_end: ''
-    date_start: '2021-01-01'
-    description: Formulated informed blockchain models, hypotheses, and use cases.
-    organization: edX
-    organization_url: https://www.edx.org
-    title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-  - certificate_url: https://www.datacamp.com
-    date_end: '2020-12-21'
-    date_start: '2020-07-01'
-    description: ''
-    organization: DataCamp
-    organization_url: https://www.datacamp.com
-    title: 'Object-Oriented Programming in R'
-    url: ''
+    title: Fundamentals of Life Cycle Assessment
+    url: https://www.udemy.com/certificate/UC-d8c860ad-e1f2-46e3-980e-805cb262ad16/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
 
+  - certificate_url: https://www.udemy.com/certificate/UC-b6c7cb22-d727-4367-b37e-132907779ddf/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
+    date_end: ''
+    date_start: '2022-09-01'
+    description: 
+    organization: Udemy
+    organization_url: https://www.udemy.com/
+    title: Climate Change & Sustainability Essentials - 2022 Edition
+    url: https://www.udemy.com/certificate/UC-b6c7cb22-d727-4367-b37e-132907779ddf/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
+
+  - certificate_url: https://www.udemy.com/certificate/UC-4f6e20e5-31ad-4d24-88b4-2674091bcb0b/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
+    date_end: ''
+    date_start: '2022-09-01'
+    description: ''
+    organization: Udemy
+    organization_url: https://www.udemy.com/
+    title: Corporate ESG and Sustainability - Doing Well and Doing Good
+    url: https://www.udemy.com/certificate/UC-4f6e20e5-31ad-4d24-88b4-2674091bcb0b/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
+
+  - certificate_url: https://www.udemy.com/certificate/UC-4f6e20e5-31ad-4d24-88b4-2674091bcb0b/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
+    date_end: ''
+    date_start: '2022-09-01'
+    description: ''
+    organization: Udemy
+    organization_url: https://www.udemy.com/
+    title: Learn how to calculate Carbon Footprint
+    url: https://www.udemy.com/certificate/UC-b6c7cb22-d727-4367-b37e-132907779ddf/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
+
+  - certificate_url: https://www.udemy.com/certificate/UC-b27dc8f5-86df-42e0-8198-f576ae7820da/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
+    date_end: ''
+    date_start: '2022-09-01'
+    description: ''
+    organization: Udemy
+    organization_url: https://www.udemy.com/
+    title: Microsoft Excel Masterclass for Business Managers
+    url: https://www.udemy.com/certificate/UC-b27dc8f5-86df-42e0-8198-f576ae7820da/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
+
+  - certificate_url: https://www.udemy.com/certificate/UC-b27dc8f5-86df-42e0-8198-f576ae7820da/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
+    date_end: ''
+    date_start: '2022-09-01'
+    description: ''
+    organization: Udemy
+    organization_url: https://www.udemy.com/
+    title: The Circular Economy 
+    url: https://www.udemy.com/certificate/UC-b27dc8f5-86df-42e0-8198-f576ae7820da/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
+
+  - certificate_url: https://malmo.se/Komvux-Malmo/Sfi---svenska-for-invandrare.html
+    date_end: ''
+    date_start: '2022-03-01'
+    description: ''
+    organization: Malmö stad
+    organization_url: https://malmo.se/Komvux-Malmo/For-sokande-och-studerande.html
+    title: Swedish for Immigrant
+    url: https://malmo.se/Komvux-Malmo/Sfi---svenska-for-invandrare.html
 design:
   columns: '2'
 ---
