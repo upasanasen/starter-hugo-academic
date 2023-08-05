@@ -8,7 +8,7 @@ summary: This post discusses the decline of Darjeeling tea production
 projects: []
 
 # Date published
-date: '2022-10-19T00:00:00Z'
+date: '2022-10-20T00:00:00Z'
 
 # Date updated
 #lastmod: '2020-12-13T00:00:00Z'

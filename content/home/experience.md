@@ -114,10 +114,9 @@ experience:
     date_end: '2016-01-01'
     description: |2-
        Study of Nutritional Aspects of Jute Leaves and its Applications
-       * Worked on protein and starch content analysis, using UV/Vis spectroscopy, of Jute leaves.  
-        
+       * Worked on protein and starch content analysis, using UV/Vis spectroscopy, of Jute leaves.
 
-
+      
 
 
 
