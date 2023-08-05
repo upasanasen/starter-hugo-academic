@@ -9,7 +9,7 @@ summary: This post discusses health benefits of jute leaves.
 projects: []
 
 # Date published
-date: '2022-10-19T00:00:00Z'
+date: '2022-10-24T00:00:00Z'
 
 # Date updated
 #lastmod: '2020-12-13T00:00:00Z'

@@ -8,7 +8,7 @@ summary: This post discusses how planting green can help cure disease
 projects: []
 
 # Date published
-date: '2022-10-19T00:00:00Z'
+date: '2022-10-22T00:00:00Z'
 
 # Date updated
 #lastmod: '2020-12-13T00:00:00Z'

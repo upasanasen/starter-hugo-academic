@@ -77,14 +77,14 @@ item:
     title: The Circular Economy 
     url: https://www.udemy.com/certificate/UC-b27dc8f5-86df-42e0-8198-f576ae7820da/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email
 
-  - certificate_url: https://malmo.se/Komvux-Malmo/Sfi---svenska-for-invandrare.html
-    date_end: ''
-    date_start: '2022-03-01'
+  - certificate_url: https://www.credly.com/badges/146337ae-6551-4594-8557-695eb204a350
+    date_end: '2023-01-10'
+    date_start: '2022-03-10'
     description: ''
-    organization: Malmö stad
-    organization_url: https://malmo.se/Komvux-Malmo/For-sokande-och-studerande.html
-    title: Swedish for Immigrant
-    url: https://malmo.se/Komvux-Malmo/Sfi---svenska-for-invandrare.html
+    organization: Earth Academy
+    organization_url: https://www.earthacademyglobal.com/
+    title: Sustainability Reporting Practitioner
+    url: https://www.credly.com/badges/146337ae-6551-4594-8557-695eb204a350
 design:
   columns: '2'
 ---

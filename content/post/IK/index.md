@@ -8,7 +8,7 @@ summary: This post discusses indigenous Knowledge
 projects: []
 
 # Date published
-date: '2022-10-2DT00:00:00Z'
+date: '2022-10-21T00:00:00Z'
 
 # Date updated
 #lastmod: '2022-10-23T00:00:00Z'

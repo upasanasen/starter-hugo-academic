@@ -8,7 +8,7 @@ summary: This post discusses the basic concept of Sustainability Reporting
 projects: []
 
 # Date published
-date: '2022-10-19T00:00:00Z'
+date: '2022-10-23T00:00:00Z'
 
 # Date updated
 #lastmod: '2022-10-26T00:00:00Z'
