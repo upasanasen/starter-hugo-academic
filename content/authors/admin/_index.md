@@ -6,9 +6,6 @@ title: Upasana Sen
 first_name: Upasana 
 last_name: Sen
 
-# Is this the primary user of the site?
-superuser: true
-
 # Role/position/tagline
 role: Environment and Sustainability Professional 
 
@@ -68,7 +65,6 @@ social:
 # - icon: cv
 #   icon_pack: ai
 #   link: uploads/resume.pdf
-
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
 
@@ -79,3 +75,4 @@ highlight_name: true
 I am a sustainability specialist skilled in systems thinking, multi-stakeholder engagement, qualitative research and analysis, strong statistical and computational skills, and content development. Interdisciplinary background in sustainability science with an emphasis on climate, environment, sustainable agriculture and food systems.
 
 Checkout my data visualization projects on [Tableau](https://public.tableau.com/app/profile/upasana.sen)
+
