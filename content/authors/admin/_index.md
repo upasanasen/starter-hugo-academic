@@ -7,15 +7,15 @@ first_name: Upasana
 last_name: Sen
 
 # Role/position/tagline
-role: Environment and Sustainability Professional 
+role: Founder & Content Writer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Lund University
-    url: https://www.lunduniversity.lu.se/
+  - name: NaturVäg
+    url: https://upasanasen.github.io/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests includes sustainable adapatation & mitigation stategies, and social sustainability.
+bio: Founder of NaturVäg, a blog on sustainability and green innovation.
 
 # Interests to show in About widget
 interests:
@@ -72,7 +72,9 @@ email: ''
 highlight_name: true
 ---
 
-I am a sustainability specialist skilled in systems thinking, multi-stakeholder engagement, qualitative research and analysis, strong statistical and computational skills, and content development. Interdisciplinary background in sustainability science with an emphasis on climate, environment, sustainable agriculture and food systems.
+`NaturVäg` , led by Upasana Sen, is a blog focused on sustainability and green innovation. Our goal is to spark conversations that lead to real change, helping our readers understand and tackle environmental challenges. We provide clear, research-backed insights and practical solutions to make sustainability a key part of how we grow and live. Our articles cover everything from in-depth analyses of environmental issues to success stories from around the globe, all aimed at inspiring collective action for a healthier planet. Join NaturVäg in making a difference, one step at a time, towards a greener future.
 
-Checkout my data visualization projects on [Tableau](https://public.tableau.com/app/profile/upasana.sen)
+`About The Founder` : Upasana Sen is the passionate founder of NaturVäg. With her deep expertise in sustainability, including everything from climate issues to sustainable agriculture, Upasana uses her skills in data analysis and systems thinking to make sustainability easy to understand and act upon. She’s all about connecting people and ideas, using her knowledge to help everyone see how they can make a real difference in the world. Through NaturVäg, she simplifies the big environmental topics and shows how sustainable living can be a part of everyone’s life, not just a special interest.a universal practice.
+
+Checkout Upasana’s data visualization projects on [Tableau](https://public.tableau.com/app/profile/upasana.sen)
 

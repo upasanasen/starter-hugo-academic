@@ -13,6 +13,10 @@ main:
   - name: Projects
     url: '#projects'
     weight: 30
+# Publications menu link - switch on when the Publications section goes live
+#  - name: Publications
+#    url: '#publications'
+#    weight: 35
   #- name: Talks
     #url: '#talks'
     #weight: 40
@@ -23,8 +27,13 @@ main:
     #url: '#contact'
     #weight: 60
 
+# Gallery menu link - switch on once you have added photos (see content/_index.md)
+#  - name: Gallery
+#    url: '#gallery'
+#    weight: 40
+
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-  - name: CV
-    url: uploads/resume.pdf
-    weight: 30
+#  - name: CV
+#    url: uploads/resume.pdf
+#    weight: 50
