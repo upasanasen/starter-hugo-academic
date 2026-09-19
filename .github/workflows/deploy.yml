@@ -1,3 +1,53 @@
 name: Build and deploy site
-on: {push: {branches: [main]}, workflow_dispatch: {}}
-jobs: {build-deploy: {runs-on: ubuntu-latest, steps: [{name: Checkout, uses: "actions/checkout@v4"}, {name: Setup Hugo, uses: "peaceiris/actions-hugo@v2", with: {hugo-version: "0.111.3", extended: true}}, {name: Setup Go, uses: "actions/setup-go@v5", with: {go-version: "1.21"}}, {name: Build, run: hugo --gc --minify}, {name: Deploy to upasanasen.github.io, uses: "peaceiris/actions-gh-pages@v3", with: {personal_token: "${{ secrets.DEPLOY_TOKEN }}", external_repository: upasanasen/upasanasen.github.io, publish_branch: main, publish_dir: ./public}}]}}
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      # Pinned to 0.111.3: the Wowchemy theme in go.mod is v5.7.1 and does not
+      # build on newer Hugo versions.
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.111.3'
+          extended: true
+
+      # Needed because the theme is pulled in as a Hugo (Go) module.
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+
+      - name: Build
+        run: hugo --gc --minify
+
+      - name: Check the build produced something
+        run: |
+          test -f ./public/index.html || { echo "::error::public/index.html missing - build produced no site"; exit 1; }
+          echo "Built $(find ./public -name '*.html' | wc -l) HTML pages"
+
+      # Publishes the built site into the separate upasanasen.github.io repo.
+      # Uses an SSH deploy key (secret ACTIONS_DEPLOY_KEY) whose public half is
+      # registered with write access on that repo. Unlike a personal access
+      # token, this does not expire.
+      - name: Deploy to upasanasen.github.io
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: upasanasen/upasanasen.github.io
+          publish_branch: main
+          publish_dir: ./public
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Deploy from starter-hugo-academic@${{ github.sha }}'
